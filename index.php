@@ -5,9 +5,9 @@
 </head>
 <body>
 
-<?php 
-	echo(rand(0,10)-rand(0,10));
-?>
+
+<input type=button onClick="location.href='login.php'" value='Login'>
+<input type=button onClick="location.href='register.php'" value='Register'>
 
 </body>
 </html>
