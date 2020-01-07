@@ -32,7 +32,7 @@
 </style>
 <body>
 	<div class="topnav">
-		<a class="<?php if ($section == "home") { echo "active"; } ?>" href="#home">Home</a>
+		<a class="<?php if ($section == "home") { echo "active"; } ?>" href="index.php">Home</a>
 		<a class="<?php if ($section == "news") { echo "active"; } ?>" href="news.php">News</a>
 		<a class="<?php if ($section == "login") { echo "active"; } ?>" href="login.php">Login</a>
 		<a class="<?php if ($section == "register") { echo "active"; } ?>" href="register.php">Register</a>
