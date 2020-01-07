@@ -6,17 +6,18 @@
 <body>
 
 
-<input type=button onClick="location.href='login.php'" value='Login'>
-<input type=button onClick="location.href='register.php'" value='Register'>
-
 <style>
+	body{
+		background-color: #f2dec4
+	}
+
 	.topnav {
-		background-color: #D2B48C;
+		background-color: #c59c66;
 		overflow: hidden;
 	}
 	.topnav a {
 		float: left;
-		color: $fff;
+		color: #d8d6d4;
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
@@ -36,8 +37,8 @@
 	<div class="topnav">
 		<a class="active" href="#home">Home</a>
 		<a href="#news">News</a>
-		<a href="#contact">Contact</a>
-		<a href="$about">About</a>
+		<a href="login.php">Login</a>
+		<a href="register.php">Register</a>
 	</div>
 
 
