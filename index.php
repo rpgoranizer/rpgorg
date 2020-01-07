@@ -6,7 +6,7 @@
 <body>
 
 <?php 
-	echo("Hello World");
+	echo(rand(0,10)-rand(0,10));
 ?>
 
 </body>
