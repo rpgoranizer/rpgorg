@@ -8,7 +8,7 @@
 
 
 	.topnav {
-		background-color: #c59c66;
+		background-color: #a9a9a9;
 		overflow: hidden;
 	}
 	.topnav a {
@@ -25,7 +25,7 @@
 	}
 
 	.topnav a.active {
-		background-color: #604b2f;
+		background-color: #838383;
 		color: white;
 	}
 </style>
