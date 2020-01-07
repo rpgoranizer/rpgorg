@@ -5,9 +5,7 @@
 	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
 </head>
 <style>
-	body{
-		background-image: url("backdrop.jpg")
-	}
+
 
 	.topnav {
 		background-color: #c59c66;
@@ -31,9 +29,14 @@
 		color: white;
 	}
 </style>
+<?php 
+	if($section == "home"){
+		echo "<style> body{ image-background: url("backdrop.jpg");} </style>"
+	}
+?>
 <body>
 	<div class="topnav">
-		<a class="<?php if ($section == "home") { echo "active"; } ?>" href="#home">Home</a>
+		<a class="<?php if ($section == "home") { echo "active"; } ?>" href="index.php">Home</a>
 		<a class="<?php if ($section == "news") { echo "active"; } ?>" href="news.php">News</a>
 		<a class="<?php if ($section == "login") { echo "active"; } ?>" href="login.php">Login</a>
 		<a class="<?php if ($section == "register") { echo "active"; } ?>" href="register.php">Register</a>
