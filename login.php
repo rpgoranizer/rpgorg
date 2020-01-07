@@ -1,5 +1,7 @@
 <?php
 // Initialize the session
+$section = "login";
+require("nav-bar.php");
 session_start();
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
@@ -100,9 +102,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
-    <?php 
-        include("nav-bar.php");
-    ?>
+
+
     <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>

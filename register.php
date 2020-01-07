@@ -1,5 +1,7 @@
 <?php
 // Include config file
+$section = "register";
+require "nav-bar.php";
 require_once "config.php";
  
 // Define variables and initialize with empty values

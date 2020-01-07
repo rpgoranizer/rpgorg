@@ -4,13 +4,17 @@
 	<title>RPG Organizer</title>
 </head>
 <style>
+	body{
+		background-color: #f2dec4
+	}
+
 	.topnav {
-		background-color: #333;
+		background-color: #c59c66;
 		overflow: hidden;
 	}
 	.topnav a {
 		float: left;
-		color: $f2f2f2;
+		color: #d8d6d4;
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
@@ -22,18 +26,16 @@
 	}
 
 	.topnav a.active {
-		background-color: #4CAF50;
+		background-color: #604b2f;
 		color: white;
 	}
 </style>
 <body>
 	<div class="topnav">
-		<a class="active" href="#home">Home</a>
-		<a href="#news">News</a>
-		<a href="#contact">Contact</a>
-		<a href="$about">About</a>
+		<a class="<?php if ($section == "home") { echo "active"; } ?>" href="#home">Home</a>
+		<a class="<?php if ($section == "news") { echo "active"; } ?>" href="news.php">News</a>
+		<a class="<?php if ($section == "login") { echo "active"; } ?>" href="login.php">Login</a>
+		<a class="<?php if ($section == "register") { echo "active"; } ?>" href="register.php">Register</a>
 	</div>
 
-
-</body>
 </html>
