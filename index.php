@@ -11,6 +11,10 @@
 ?>
 <img class="titlecard" src="titlecard.png"/>
 <style>
+	body{
+		background-image: url("backdrop.jpg");
+	}
+
 	.titlecard {
 		display: block;
 		margin-left: auto;

@@ -29,11 +29,7 @@
 		color: white;
 	}
 </style>
-<?php 
-	if($section == "home"){
-		echo "<style> body{ image-background: url("backdrop.jpg");} </style>"
-	}
-?>
+
 <body>
 	<div class="topnav">
 		<a class="<?php if ($section == "home") { echo "active"; } ?>" href="index.php">Home</a>
