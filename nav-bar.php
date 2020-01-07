@@ -5,7 +5,7 @@
 </head>
 <style>
 	body{
-		background-color: #f2dec4
+		background-image: url("backdrop.jpg")
 	}
 
 	.topnav {
